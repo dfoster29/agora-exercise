@@ -12,11 +12,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.content-container {
-  width: 1300px;
-  margin: auto;
-}
-
 .main-header {
   font-family: 'Open Sans', sans-serif;
   font-size: 75px;
@@ -83,7 +78,6 @@ h3 {
   background-image: url("../images/Gears_15.jpg");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 100%;
   background-color: #A41F25;
 }
 
@@ -97,8 +91,6 @@ h3 {
 
 .shipping-image-sec {
   background-color: #495E40;
-  width: 1168px;
-  margin: auto;
   margin-top: 0;
 }
 
@@ -130,32 +122,22 @@ h3 {
 
 .transparent-sec {
   background-color: rgba(255, 255, 255, .7);
-  width: 1168px;
   background-size: 150%;
   overflow: hidden;
   margin: auto;
 }
 
-.bottom-text-section {
-  padding-right: 60px;
-  padding-left: 60px;
-}
-
-.arrow-img {
-  width: 1168px;
-  margin: auto;
-}
-
-.background-image-sec {
+/* .last-sec {
   background-image: url("../images/TransparentArrowBkgd.jpg"), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
   background-size: cover;
   background-blend-mode: overlay;
-}
+  position: bottom;
+} */
 
 button {
   background-color: #E47E25;
   border-color: white;
-  border-width: 3px;
+  border-width: 5px;
   position: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -164,6 +146,41 @@ a {
   color: #2BB673;
   text-decoration: underline;
   font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: auto;
+  }
+  .text-section {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+  }
+  .bottom-text-section {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .arrow-img {
+    width: auto;
+    margin: auto;
+  }
+  .transparent-sec {
+    background-color: rgba(255, 255, 255, .7);
+    width: auto;
+    background-size: 150%;
+    overflow: hidden;
+    margin: auto;
+  }
+  .shipping-image-sec {
+    background-color: #495E40;
+    width: auto;
+    margin: auto;
+    margin-top: 0;
+  }
+  .bottle-img {
+    height: 200px;
+  }
 }
 /* font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Open Sans', sans-serif; */
