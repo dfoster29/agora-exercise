@@ -181,6 +181,29 @@ a {
   .bottle-img {
     height: 200px;
   }
+  .headline-sec {
+    height: 300px;
+    background-image: url("../images/HeadlineImage_1.jpg");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  .sub-main-header {
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .main-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    color: rgb(203,26,46);
+    z-index: 2;
+  }
+  .chocolate-images {
+    margin: auto;
+    padding: none;
+  }
 }
 /* font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Open Sans', sans-serif; */
