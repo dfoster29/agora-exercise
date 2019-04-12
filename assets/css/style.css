@@ -295,27 +295,27 @@ a {
 
 #cart-button:focus {
   -webkit-animation-name: color-change; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
   -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
   animation-name: color-change;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-delay: 0s;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes color-change {
-  0%   {background-color:red;}
-  25%  {background-color:yellow;}
-  50%  {background-color:blue;}
-  75%  {background-color:green;}
-  100% {background-color:red;}
+  0%   {background-color:white;}
+  25%  {background-color:#E47E25;}
+  50%  {background-color:white;}
+  75%  {background-color:#E47E25;}
+  100% {background-color:white;}
 }
 
 /* Standard syntax */
 @keyframes color-change {
-  0%   {background-color:red;}
-  25%  {background-color:yellow;}
-  50%  {background-color:blue;}
-  75%  {background-color:green;}
-  100% {background-color:red;}
+  0%   {background-color:white;}
+  25%  {background-color:#E47E25;}
+  50%  {background-color:white;}
+  75%  {background-color:#E47E25;}
+  100% {background-color:white;}
 }
