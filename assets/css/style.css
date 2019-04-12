@@ -1,3 +1,150 @@
+.headline-sec {
+  height: 500px;
+  background-image: url("../images/HeadlineImage_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+
+.sub-main-header {
+  color: white;
+  font-size: 40px;
+}
+
+.content-container {
+  width: 1300px;
+}
+
+.main-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 75px;
+  color: rgb(203,26,46);
+  z-index: 2;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.header-gradient {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, .25), rgba(255,255,255,1),
+   rgba(255, 255, 255, 1), rgba(255,255,255,.25));
+  z-index: 1;
+}
+
+.text-section {
+  margin-right: 126px;
+  margin-left: 126px;
+}
+
+.chocolate-images {
+  background-image: linear-gradient(to right, rgba(195,155,124, 0), rgba(195,155,124,1),
+   rgba(195,155,124, 1), rgba(195,155,124, 0));
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.parallax-sec {
+  background-image: url("../images/ParallaxOne_5.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.shadowed-text {
+  text-shadow: 2px 2px gray;
+}
+
+.brown-bar-sec {
+  background-color: #3d1c0f;
+  height: 350px;
+  position: relative;
+  width: 85%;
+}
+
+.doctor-image {
+  position: absolute;
+  left: 50;
+}
+
+.brown-red-sec p {
+  line-height: 50px;
+}
+
+.red-sec {
+  background-image: url("../images/Gears_15.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 100%;
+  background-color: #A41F25;
+}
+
+.delivery-man {
+  float: right;
+}
+
+.yellow-header {
+  color: #FFCD2F;
+}
+
+.shipping-image-sec {
+  background-color: #495E40;
+  margin-right: 96px;
+  margin-left: 96px;
+}
+
+.yellow-free {
+  color: #F9D63F;
+  font-size: 130px;
+  line-height: 135px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.order-now {
+  color: white;
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 30px;
+}
+
+.shipping {
+  color: white;
+  font-size: 60px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 65px;
+}
+
+.last-sec {
+  position: relative;
+  background-color: white;
+}
+
+.bottom-text-section {
+  width: 928px;
+}
+
+.background-image {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+button {
+  background-color: #E47E25;
+  border-color: white;
+  border-width: 3px;
+}
+
+a {
+  color: #2BB673;
+  text-decoration: underline;
+}
 /* font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
