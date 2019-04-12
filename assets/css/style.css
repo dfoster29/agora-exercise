@@ -9,10 +9,12 @@
 .sub-main-header {
   color: white;
   font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .content-container {
   width: 1300px;
+  margin: auto;
 }
 
 .main-header {
@@ -35,8 +37,8 @@ p {
 }
 
 .text-section {
-  margin-right: 126px;
-  margin-left: 126px;
+  padding-right: 126px;
+  padding-left: 126px;
 }
 
 .chocolate-images {
@@ -95,14 +97,15 @@ h3 {
 
 .shipping-image-sec {
   background-color: #495E40;
-  margin-right: 96px;
-  margin-left: 96px;
+  width: 1168px;
+  margin: auto;
+  margin-top: 0;
 }
 
 .yellow-free {
   color: #F9D63F;
-  font-size: 130px;
-  line-height: 135px;
+  font-size: 145px;
+  line-height: 145px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -115,7 +118,7 @@ h3 {
 
 .shipping {
   color: white;
-  font-size: 60px;
+  font-size: 67px;
   font-family: 'Open Sans Condensed', sans-serif;
   line-height: 65px;
 }
@@ -125,25 +128,42 @@ h3 {
   background-color: white;
 }
 
-.bottom-text-section {
-  width: 928px;
+.transparent-sec {
+  background-color: rgba(255, 255, 255, .7);
+  width: 1168px;
+  background-size: 150%;
+  overflow: hidden;
+  margin: auto;
 }
 
-.background-image {
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
+.bottom-text-section {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.arrow-img {
+  width: 1168px;
+  margin: auto;
+}
+
+.background-image-sec {
+  background-image: url("../images/TransparentArrowBkgd.jpg"), linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 button {
   background-color: #E47E25;
   border-color: white;
   border-width: 3px;
+  position: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
   color: #2BB673;
   text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
 }
 /* font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Open Sans', sans-serif; */
